@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: http://blog.xogus.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  kimxogus
 google_analytics_toke: UA-88791880-1
+disqus_short_name: blog-kimxogus
 
 # Build settings
 markdown: kramdown
