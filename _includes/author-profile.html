@@ -78,6 +78,12 @@
           Google+
         </a></li>
       {% endif %}
+      {% if author.slideshare %}
+      <li><a href="http://www.slideshare.net/{{ author.slideshare }}" itemprop="sameAs">
+        <i class="fa fa-fw fa-slideshare" aria-hidden="true"></i>
+        SlideShare
+      </a></li>
+      {% endif %}
       {% if author.linkedin %}
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
           <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> 
