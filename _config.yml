@@ -9,11 +9,11 @@
 locale                   : "ko"
 title                    : "Kimxogus"
 title_separator          : "-"
-name                     : "Taehyun Kim"
-description              : "Blog of Taehyun Kim."
-url                      : http://blog.xogus.io
+name                     : &name "Taehyun Kim"
+description              : &desc "Blog of Taehyun Kim."
+url                      : "http://blog.xogus.io"
 baseurl                  : ""
-repository               : kimxogus/kimxogus.github.io
+repository               : "kimxogus/kimxogus.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -54,11 +54,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Taehyun Kim"
+  name             : *name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PuzzleData Software Developer"
   location         : "Seoul, Korea"
-  email            : kgyoo8232@gmail.com
+  email            : "kgyoo8232@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -66,13 +66,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : kimxogus
+  github           : &gitgub kimxogus
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : &linkedin kimxogus
   pinterest        :
+  slideshare       : ssuser555dd7
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
