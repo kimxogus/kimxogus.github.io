@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "ko"
-title                    : "Kimxogus"
+title                    : "Taehyun Kim"
 title_separator          : "-"
 name                     : &name "Taehyun Kim"
 description              : &desc "Blog of Taehyun Kim."
@@ -73,7 +73,7 @@ author:
   lastfm           :
   linkedin         : &linkedin kimxogus
   pinterest        :
-  slideshare       : ssuser555dd7
+  slideshare       : &slideshare ssuser555dd7
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
