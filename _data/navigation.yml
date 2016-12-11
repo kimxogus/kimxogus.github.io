@@ -3,7 +3,7 @@ main:
   #- title: "About"
   #  url: /about/
   - title: "Posts"
-    url: /archive/
+    url: /posts/
   - title: "Collections"
     url: /collections/
   - title: "Categories"
