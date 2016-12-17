@@ -18,9 +18,13 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus"
+  provider               : "facebook"
   disqus:
     shortname            : "blog-kimxogus"
+  facebook:
+    appid                : # optional
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
