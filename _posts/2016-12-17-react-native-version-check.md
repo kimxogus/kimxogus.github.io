@@ -1,6 +1,6 @@
 ---
 title: "react-native-version-check"
-modified: 2016-12-16T04:40:00+09:00
+modified: 2016-12-17T19:30:00+09:00
 categories:
     - React Native
 tags:
