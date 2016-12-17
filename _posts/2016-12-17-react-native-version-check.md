@@ -12,6 +12,20 @@ tags:
 ---
 그간 작업하던 React Native 버전 체크 라이브러리인 ```react-native-version-check```의 1.0버전이 릴리즈 되었습니다!  
 
+<div style="text-align:center;">
+  <figure style="display:inline-block;width:100px;margin-right: 30px;">
+    <a href="https://github.com/kimxogus/react-native-version-check">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/github/PNG/GitHub-Mark-120px-plus.png" alt="">
+      <figcaption>GitHub</figcaption>
+    </a>
+  </figure>  
+  <figure style="display:inline-block;width:100px;">
+    <a href="https://www.npmjs.com/package/react-native-version-check">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/npm/simple-logo/n-large.png" alt="">
+      <figcaption>NPM</figcaption>
+    </a>
+  </figure>  
+</div>
 
 ## 제작 배경
  앱이 지속적으로 업데이트 되는 와중에도 적지 않은 유저들이 업데이트를 하지 않고 구 버전에 머무르는데요. 메이저 업데이트가 이뤄지고, API가 바뀌는 등 구 버전에 대한 지원이 중단되는 경우 유저들에게 이를 알리고 업데이트 하도록 유도할 필요가 있습니다.  
