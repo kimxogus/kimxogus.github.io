@@ -36,6 +36,11 @@ tags:
 
 ## 설치
 **react-native-version-check**은 버전 정보, 국가 정보(iOS AppStore 경로) 등을 가져오기 위해 네이티브 API를 사용하고 있습니다. 때문에 이를 추가하는 작업이 필요합니다. (제 깃헙의 README에 있는 설치법을 한글로 옮겨 적었습니다.)
+
+### NPM 라이브러리 설치
+{% highlight bash %}
+npm install --save react-native-version-check
+{% endhighlight %}
   
 ### iOS
 1. 프로젝트 폴더의 ios폴더를 XCode 프로젝트로 연다.
