@@ -59,7 +59,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/profile.jpg
   bio              : *bio
   location         : "Seoul, Korea"
   email            : "kgyoo8232@gmail.com"
