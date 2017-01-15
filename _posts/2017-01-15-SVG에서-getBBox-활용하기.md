@@ -15,7 +15,7 @@ SVG DOM 객체에 포함된 getBBox 메소드에 대해 알아봅시다!
 SVG 1.1 스펙에서 getBBox에 대한 설명을 보면 아래와 같다.
 
 > Returns the tight bounding box in current user space (i.e., after application of the ‘transform’ attribute, if any) on the geometry of all contained graphics elements, exclusive of stroking, clipping, masking and filter effects). Note that getBBox must return the actual bounding box at the time the method was called, even in case the element has not yet been rendered.  
-> <cite>[www.w3.com](https://www.w3.org/TR/SVG11/types.html#__svg__SVGLocatable__getBBox)</cite>
+> <cite>[www.w3.org](https://www.w3.org/TR/SVG11/types.html#__svg__SVGLocatable__getBBox)</cite>
 
 대략 해석해보면 getBBox 함수가 호출되는 순간의 해당 엘리멘트가 차지하는 bounding box의 정보를 리턴한다는 얘기다.  
 
